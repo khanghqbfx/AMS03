@@ -1,0 +1,209 @@
+@media (min-width:768px) and (max-width:1024px){
+  
+ .banner-name{
+    left: 29%;
+    display: inline-block;
+ }
+
+.navbar__name img {
+    display: none;
+}
+
+.navbar a:link, a:visited{
+    font-size: 12px;
+   text-align: center;
+    margin: 0 5px;
+   
+}
+
+.navbar{
+    margin-top: 10px;
+    margin-bottom: none;
+    border-bottom: 1px solid #F2F4F4;
+    width: auto;
+}
+
+.container-job{
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    
+}
+
+.project-container{
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.project-navbar{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.project-navbar span{
+    margin-right: 78px;
+    align-items: center;
+}
+    
+
+.project-navbar i{
+   display: flex;
+    align-items: center;
+    
+}
+
+.table tr:nth-child(2){
+    gap:37px;
+   
+}
+/* thú cưng */
+
+.project-per-nabar{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 16px;
+    height: auto;
+}
+
+.project-per-nabar span{
+    margin-right: 40%;
+    align-items: center;
+
+}
+
+.project-per-navbar i{
+    display: flex;
+    flex-direction: column;
+     align-items:flex-start;
+     text-align: center;
+    }
+.pre-icon{
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+/* web */
+.project-trust-nabar{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    height: auto;
+}
+.project-trust-nabar span{
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.project-trust-nabar i{
+    /* display: flex; */
+    flex-direction: column;
+     align-items:flex-start;
+     /* text-align: center; */
+
+}
+.project-trust-icon{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* DIGITAL */
+
+.digital{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/* Goals */
+.goals-one,
+.goals-two,
+.goals-three{
+    display:flex;
+    flex-direction: column;
+    row-gap: 0px;
+}
+.goals-icon{
+ align-self:center;
+}
+
+ /* digital-team */
+ .digital-team{
+    margin-left: 10px;
+    
+ }
+
+.team-one,
+.team-two,
+.team-three,
+.team-for{
+    display:flex;
+    flex-direction: column;
+    row-gap: 0px;
+}
+
+.team-icon{
+    align-self: center;
+}
+
+/* digital-timeline */
+
+
+
+.start{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.start-one{
+    padding-top: 0px;
+}
+
+
+
+/* scoper-detals */
+.scoper-detals{
+    display: flex;
+    flex-direction: column;
+}
+/* Primary */
+
+
+.primary{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+}
+
+.primary-icon{
+    align-self: center;
+
+} 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
